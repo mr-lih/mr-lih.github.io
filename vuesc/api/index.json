@@ -1,0 +1,166 @@
+{
+    "ret": true,
+    "data": {
+        "city":"北京",
+        "hotWeek":[{
+           "id":"1", 
+           "hotWeekImgUrl":"http://img1.qunarzz.com/sight/p0/1703/38/38376492ffddd93ca3.water.jpg_250x250_e7c30b20.jpg",
+           "hotWeekTitle":"双龙溶洞景区",
+           "hotWeekMoney":"35"
+        },{
+           "id":"2", 
+           "hotWeekImgUrl":"http://img1.qunarzz.com/sight/p0/1609/31/3116c0c6deaaf099a3.img.jpg_250x250_9f4248e5.jpg",
+           "hotWeekTitle":"陕西秦岭悠然山高山湿地景区",
+           "hotWeekMoney":"50"
+        },{
+           "id":"3", 
+           "hotWeekImgUrl":"http://img1.qunarzz.com/sight/p0/1505/81/816d756b1143cc80.water.jpg_250x250_0d4e744a.jpg",
+           "hotWeekTitle":"汉江燕翔洞生态旅游景区",
+           "hotWeekMoney":"67"
+        },{
+           "id":"4", 
+           "hotWeekImgUrl":"http://img1.qunarzz.com/sight/p0/1508/31/3121ae14d49205ee.img.jpg_250x250_31917216.jpg",
+           "hotWeekTitle":"安康双龙国际生态旅游度假区",
+           "hotWeekMoney":"35"
+        },{
+           "id":"5", 
+           "hotWeekImgUrl":"http://img1.qunarzz.com/sight/p0/201301/05/66bbfab8115b02e193835fbb.png_250x250_3ea9db20.png",
+           "hotWeekTitle":"中坝大峡谷",
+           "hotWeekMoney":"53"
+        },{
+           "id":"6", 
+           "hotWeekImgUrl":"http://img1.qunarzz.com/sight/p0/1505/16/16f558006d3e3628.water.jpg_250x250_d4e9e096.jpg",
+           "hotWeekTitle":"汉江三峡风景区",
+           "hotWeekMoney":"79.9"
+        }],
+        "swiperList": [{
+                "id": "001",
+                "swiperImg": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20192/c8273823e3d561357875ed21a698d918.png_750x200_deb12517.png"
+            },
+            {
+                "id": "0002",
+                "swiperImg": "http://img1.qunarzz.com/piao/fusion/1811/31/da037478f37cf202.jpg_750x200_fe28d396.jpg"
+            },
+            {
+                "id": "0003",
+                "swiperImg": "http://img1.qunarzz.com/piao/fusion/1812/d1/cd4f32e924a5a302.jpg_750x200_3d492837.jpg"
+            },
+            {
+                "id": "0004",
+                "swiperImg": "http://img1.qunarzz.com/piao/fusion/1812/80/c84c17a6b31a0002.jpg_750x200_0f5d0a63.jpg"
+            }
+        ],
+        "iconsImg": [{
+                "id": "0001",
+                "iconsImgUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+                "text": "热1门景点"
+            },
+            {
+                "id": "0002",
+                "iconsImgUrl": "http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png",
+                "text": "自然风光"
+            },
+            {
+                "id": "0003",
+                "iconsImgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+                "text": "石家庄必游"
+            },
+            {
+                "id": "0004",
+                "iconsImgUrl": "http://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+                "text": "名胜古迹"
+            },
+            {
+                "id": "0005",
+                "iconsImgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+                "text": "一日游"
+            },
+            {
+                "id": "0006",
+                "iconsImgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+                "text": "泡温泉"
+            },
+            {
+                "id": "0007",
+                "iconsImgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+                "text": "111"
+            },
+            {
+                "id": "0008",
+                "iconsImgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+                "text": "456"
+            },
+            {
+                "id": "0009",
+                "iconsImgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+                "text": "777"
+            }
+        ],
+        "likeList": [{
+            "id": "0001",
+            "likeImgUrl": "http://img1.qunarzz.com/sight/p0/1704/a8/a8aa90887648820ba3.img.jpg_200x200_4b2b15a7.jpg",
+            "likeTitle": "红崖谷",
+            "likePrice": "59.9",
+            "area": "平乡县",
+            "comment": "452"
+        }, {
+            "id": "0002",
+            "likeImgUrl": "http://img5.duitang.com/uploads/item/201206/15/20120615031447_R5EcS.jpeg",
+            "likeTitle": "白鹿温泉",
+            "likePrice": "137",
+            "area": "平乡县",
+            "comment": "125"
+        }, {
+            "id": "0003",
+            "likeImgUrl": "http://img1.qunarzz.com/sight/p0/1712/ba/ba6881493af88e75a3.img.jpg_200x200_578c0d65.jpg",
+            "likeTitle": "萌宠奇缘",
+            "likePrice": "60",
+            "area": "新华区",
+            "comment": "1254"
+        }, {
+            "id": "0004",
+            "likeImgUrl": "http://img1.qunarzz.com/sight/p0/1812/81/8128931a9523dfe4a3.img.jpg_200x200_c551d0ef.jpg",
+            "likeTitle": "沕沕水",
+            "likePrice": "59",
+            "area": "平山县",
+            "comment": "684"
+        }, {
+            "id": "0005",
+            "likeImgUrl": "http://img1.qunarzz.com/sight/p0/201403/10/663a37214ef67183967f6f0e29c788d8.jpg_200x200_41099f07.jpg",
+            "likeTitle": "西苑享水湾温泉",
+            "likePrice": "88",
+            "area": "新华区",
+            "comment": "451"
+        }, {
+            "id": "0006",
+            "likeImgUrl": "http://img1.qunarzz.com/sight/p0/201401/22/7f20f55f239b90f321695a0a596b5ce6.jpg_200x200_cff30096.jpg",
+            "likeTitle": "苍岩山",
+            "likePrice": "25",
+            "area": "井陉县",
+            "comment": "854"
+        }],
+        "weekList": [
+              {
+              "id":"1",
+              "weekImgUrl":"http://img1.qunarzz.com/sight/source/1505/74/98a840f2a881b.jpg_r_640x214_1bf94c8e.jpg",
+              "weekTitle":"陕西温泉季",
+              "weekContent":"养生、养性、养心的理想之地，曲径通幽，鸟语花香，让您在远离喧嚣之地享受终南隐士生活。"
+          },{
+             "id":"2",
+             "weekImgUrl":"http://img1.qunarzz.com/sight/source/1505/30/67d5e62ca78a29.jpg_r_640x214_9dfb4295.jpg",
+             "weekTitle":"西安花花世界",
+             "weekContent":"月落星驰又一春，不负人间看花人" 
+          },{
+             "id":"3",
+             "weekImgUrl":"http://img1.qunarzz.com/sight/source/1506/26/5e8fad4a4a4be2.jpg_r_640x214_8d055589.jpg",
+             "weekTitle":"山外有山",
+             "weekContent":"这里曾是太乙真人修炼地，唐王李世民的避暑消夏胜地，山清水秀、景色如画、气候凉爽" 
+          },{
+             "id":"4",
+             "weekImgUrl":"http://img1.qunarzz.com/sight/source/1511/14/1cf5dc2ecbfc16.jpg_r_640x214_b4b3a58a.jpg",
+             "weekTitle":"醉美丝路行",
+             "weekContent":"情系西北，中国梦丝路行" 
+          }] 
+
+    }
+}
