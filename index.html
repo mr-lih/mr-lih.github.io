@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<style type="text/css">
+		body,html{
+			width: 100%;
+			height: 100%;
+			background-color: #ffbf00;
+			padding: 0;margin: 0;
+		}
+		h1{
+			padding: 0;margin: 0;
+			font-size: 199px;
+			text-align: center;
+			cursor: pointer;
+			color: #fff;
+			text-shadow: 5px 5px 5px #000;
+		}
+		span{
+			display: inline-block;
+			transition: .25s;
+		}
+		h1 span:hover{
+			transform: translateY(-20px) rotate(10deg) scale(1.5);
+			color: #f60;
+		}
+	</style>
+</head>
+<body>
+	<h1>LiHan!</h1>
+	<script type="text/javascript">
+		const a = [...document.getElementsByTagName("h1")][0];
+		
+		function wrapSpan(word){
+			return [...word].map( words => `<span>${words}</span>`).join('<span>*</span>')
+		}
+		a.innerHTML = wrapSpan(a.textContent)
+		console.log(a);
+		
+		
+		
+	</script>
+</body>
+</html>
