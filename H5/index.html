@@ -1,0 +1,440 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	 <meta name="viewport" content="initial-scale=1, user-scalable=0, minimal-ui">
+
+
+	<!-- 删除默认的苹果工具栏和菜单栏 -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- 在web app应用下状态条（屏幕顶部条）的颜色 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" /> -->
+
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">-->
+
+<title>demo</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	
+</head>
+<!--
+	<style>
+		*{
+			padding:0;
+			margin: 0;
+		}
+		body{
+			position: :relative;
+			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+		}
+		.swiper-container {
+			
+			border: 1px solid black;
+			position: relative;
+		}  
+		.swiper-slide{
+			-webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+			text-align: center;
+			width: 100%;
+			height: 300px;
+		}
+	</style>
+-->
+	 <style>
+/*
+				.swiper-slide{
+				-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		-webkit-justify-content: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		-webkit-align-items: center;
+		align-items: center;
+				text-align: center;
+				width: 100%;
+				height: 300px;
+			}
+*/
+		 *{
+			padding:0;
+			margin: 0;
+		}
+		 .lan h2,p{
+			 margin-left: 15px;;
+			 margin-top: 5px;
+		 }
+   
+    .swiper-container {
+    	margin: 0 auto;
+      	 width: 400px;
+    height: 710px;
+	    
+	    
+    }
+    .swiper-slide {
+	
+      font-size: 18px;
+	   
+    
+	}
+ button{
+			 background: #036eb8;
+	 width: 40%;
+	 padding: 10px;margin-left: 25%;
+	 margin-top: 10px;
+	 color: white;
+		 }
+		 a{
+			 text-decoration: none;
+			 color: white;
+			 border: 0px solid black;
+		 }
+      /* Center slide text vertically */
+
+/*
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+		 */
+		 /*第一页*/
+		 .img1{
+			 width: 100%;
+			 
+			 height: 90%;
+			
+		 }
+		 .img1_a{
+			display: inline-block;
+   			width: 100%;
+			margin-top: 20px;
+			 margin-bottom: -70px;
+			 
+		 }
+		 .img1_b{
+			position: relative;
+			 bottom: 5em;
+			 left: 0.7em;
+			width: 50%;
+			 
+			
+		 }
+		 .imgs{
+			width: 100%;
+			
+			  height: 100%;
+			 
+		 }
+		 .lan{
+				color: white;
+			 height: 160px;
+			 width: 60%;
+			 background-color: rgba(49,101,221,0.53);
+			 display: inline-block;
+			margin-top: -95px;
+			
+			 z-index: 99;
+
+		 }
+		 .huang{
+			 height: 700px;
+			 width: 40%;
+			 background-color: #e1ad23;
+			 position: absolute;
+			 top: 0;
+			 right: 0;
+			 z-index: -1;
+		 }
+		 	
+		/*第二页*/
+		
+		 .biaoti{
+			 color: white;
+			 position: absolute;
+			 right: 60px;
+			 top: 10px;
+			 text-align: right;
+		 }
+		 .biaoti p{
+			 font-size: 1.1em;
+			 z-index: 95;
+		 }
+		 
+		
+		 
+		 .liu{
+		background: url(imgs/3.png) no-repeat;
+		background-size: 100%;
+		display: inline-block;
+	}
+	.img2_all{
+		width: 100%;
+		margin-top: 50%;
+		margin-bottom: 70%;
+		
+	}
+	.liu .img2_all img{
+		width: 25%;
+		padding: 5px;
+		margin-left: 5px;
+		
+	}
+	/*第二页*/	 
+		 /*第三页*/
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 /*第三页*/
+		 
+		.bm{
+			 position: absolute;
+			 display: flex;
+			 left: 40px;
+			 top: 20px;
+			 z-index: 999;
+			width: 50px;
+			height: 50px;
+			background: url(imgs/yf.png);
+			
+			
+		 }
+		 
+	@-webkit-keyframes rotating {
+        0% {
+            transform: rotate(0deg)
+        }
+
+        to {
+            transform: rotate(1turn)
+        }
+    }
+
+    @keyframes rotating {
+        0% {
+            transform: rotate(0deg)
+        }
+
+        to {
+            transform: rotate(1turn)
+        }
+    }
+		 
+		 
+		 
+  </style>
+<body>
+	<div class="swiper-container">
+		
+			<div class="bm"></div>
+			<audio id="myaudio" src="music/1.mp3" loop="loop">
+			</audio>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide1">
+			<div class="img1">
+				<div class="imgs">
+					<img src="imgs/1.png" class="img1_a ani" swiper-animate-effect="rotateInDownLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s" alt=""><!--rotateInDownLeft-->
+					<span class="lan ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="1s">
+						<div class="ani" swiper-animate-effect="bounceInRight" swiper-animate-duration="0.5s" swiper-animate-delay="2s">
+						<h2><strong>MD</strong></h2>
+						<p class="p1_a">EDUCATION</p>
+						<p class="p1_b">MAKE EVERYONE GOLD</p>
+						<h2><strong>名鼎教育</strong></h2>
+						</div>
+					</span>
+				</div>
+				<img src="imgs/logo1.png" class="img1_b ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="2.3s" alt="">
+				<div class="huang ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.5s"></div>
+				
+		  	</div>
+			  
+		 
+		  	 
+		  	
+		  	
+		</div>
+        <div class="swiper-slide slide2">
+			<div class="bg" >
+<!--
+					<div class="biaoti">
+						<h2 class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.6s"><strong>服务项目</strong></h2>
+						<p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.9s">SERVICE ITEMS</p>
+					</div>
+-->
+				<div class="liu ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+					<div class="img2_all">
+						
+						<a href="http://www.mdeducation.cn"><img src="imgs/hy.png" alt=""  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.6s" swiper-animate-delay="1.4s"></a>
+						<a href="http://www.mdeducation.cn"><img src="imgs/wk.png" alt=""  class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.6s" swiper-animate-delay="1.6s"></a>
+						<a href="http://www.mdeducation.cn"><img src="imgs/crjy.png" alt="" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.6s" swiper-animate-delay="1.8s"></a>
+						<a href="http://www.mdeducation.cn" ><img src="imgs/zypx.png" alt="" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.6s" swiper-animate-delay="2s"></a>
+						<a href="http://www.mdeducation.cn"><img src="imgs/bs.png" alt="" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.6s" swiper-animate-delay="2.2s"></a>
+						<a href="http://www.mdeducation.cn"><img src="imgs/xqhz.png" alt="" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.6s" swiper-animate-delay="2.4s"></a>
+						
+					
+					</div>
+				</div>
+				 <div class="biaoti">
+					<h2 class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.6s"><strong>服务项目</strong></h2>
+					<p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.9s">SERVICE ITEMS</p>
+				</div>
+		  
+		  	
+		  
+		  	</div>
+		  
+		 
+				
+       
+		
+    </div>
+	     <div class="swiper-slide slide3">
+			<div class="tou">
+		  		<img src="imgs/4.png" alt="" style="width: 100%;" class="ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
+					
+						<div class="logo ani" style="background-color: #ccc;position: absolute;top:190px;right: 45px;width: 100px;display: block;height: 100px;border: 8px solid #fff;box-shadow: 5px 5px 5px #ccc;"  swiper-animate-effect="bounceIn" swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">
+
+									<img src="imgs/logo2.png" alt="" style=" width: 80%;padding: 5px;margin-top: -5px;margin-left: 8px;" class="ani"  swiper-animate-effect="swing" swiper-animate-duration="0.5s" swiper-animate-delay="0.8s">
+
+						</div>
+					
+		  	</div>
+		     <h2 style="color: #37408B;margin-left: 15px;margin-top: 10%;" class="ani" swiper-animate-effect="fadeInDownBig" swiper-animate-duration="1s" swiper-animate-delay="0.8s">名鼎教育简介</h2>
+		     <span style="color: #3F4890;margin-left: 15px;margin-bottom: 10px;" class="ani" swiper-animate-effect="fadeInUpBig" swiper-animate-duration="1s" swiper-animate-delay="0.8s">Mdeducation introduction</span><br>
+
+		     <span style="display: inline-block;font-size: 14px;width: 80%;text-align: left;padding: 5px;margin: 0 auto;margin-left: 10px;" class="ani"  swiper-animate-effect="lightSpeedIn" swiper-animate-duration="0.5s" swiper-animate-delay="1.3s">名鼎教育以艺术为链条，文化为内涵，教育为平台的全生态教育机构，我们正在成为行业的领跑者的路上！ 旗下拥有平面设计、展示展览、微课慕课、职业培训、成人教育、 校企合作六大运营品牌</span><br><br>
+
+
+		     <button class="ani" swiper-animate-effect="flipInX" swiper-animate-duration="0.5s" swiper-animate-delay="1.8s"><strong><a href="http://www.mdeducation.cn">Read More</a></strong></button>
+		  </div>
+    <!-- 如果需要分页器 -->
+<!--    <div class="swiper-pagination"></div>-->
+    
+    <!-- 如果需要导航按钮 -->
+<!--    <div class="swiper-button-prev"></div>-->
+<!--    <div class="swiper-button-next"></div>-->
+    
+    <!-- 如果需要滚动条 -->
+<!--    <div class="swiper-scrollbar"></div>-->
+	</div>
+</div>
+	
+	<script src="js/swiper.min.js"></script>
+	<script src="js/swiper.animate1.0.3.min.js"></script>
+</body>
+	
+				
+			
+
+<script>
+	var audio = document.getElementById("myaudio"); 
+	var obm = document.getElementsByClassName("bm")[0];
+	obm.style.animation="rotating 1.5s  linear infinite ";
+		if(audio.paused){
+			stop();
+		}
+		
+			
+	obm.onclick = function(){
+		  playPause();
+		if(obm.style.animationPlayState=="initial"||obm.style.animationPlayState=="running"){
+			stop();//图标旋转暂停
+			//audio.pause();
+			
+		}else{
+			go();//图标旋转开始
+			//audio.play();
+		}
+	   }
+	
+	   //音乐播放
+	    function playPause(){
+			 if (audio.paused) {
+			        audio.play(); 
+				
+				}else{
+			        audio.pause();
+				}
+		   // alert(audio.readyState)
+		  }
+	   
+	   
+	   //暂停
+	   function stop(){
+		  obm.style.animationPlayState = "paused";
+		  obm.style.WebkitAnimationPlayState = "paused"; // 针对 Chrome 和 Safari 的代码
+	   }
+	   //开始
+		function go(){
+			obm.style.animationPlayState = "running";
+		 obm.style.WebkitAnimationPlayState = "running"; // 针对 Chrome 和 Safari 的代码
+		}
+	
+	
+	
+	</script>
+	<script>
+		var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical',
+    loop: false,
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+    
+		//加载动画效果
+			 
+    on:{
+      init: function(){
+        swiperAnimateCache(this); //隐藏动画元素 
+        swiperAnimate(this); //初始化完成开始动画
+      }, 
+      slideChangeTransitionEnd: function(){ 
+        swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+      } 
+    }
+ 
+	
+	
+	
+	})  
+	</script>
+
+	
+	
+	
+	
+</html>
