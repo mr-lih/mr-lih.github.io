@@ -1,48 +1,338 @@
-<!DOCTYPE html>
-<html lang="zh">
+ <!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title></title>
-	<style type="text/css">
-		body,html{
-			width: 100%;
-			height: 100%;
-			background-color: #ffbf00;
-			padding: 0;margin: 0;
-		}
-		h1{
-			padding: 0;margin: 0;
-			font-size: 199px;
-			text-align: center;
-			cursor: pointer;
-			color: #fff;
-			text-shadow: 5px 5px 5px #000;
-		}
-		span{
-			display: inline-block;
-			transition: .25s;
-		}
-		h1 span:hover{
-			transform: translateY(-20px) rotate(10deg) scale(1.5);
-			color: #f60;
-		}
-	</style>
+<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Time Together </title>
+	<script src="jquery.min.js"></script>
+	<script>
+	 
+		  var starttime = new Date("2019/5/9");
+				
+				 setInterval(function() {
+					 var nowtime = new Date();
+					 var time = starttime - nowtime;
+					 var day = -parseInt(time / 1000 / 60 / 60 / 24);
+					 var hour = parseInt(time / 1000 / 60 / 60 % 24 +22);
+					 var minute = parseInt(time / 1000 / 60 % 60);
+					 var seconds = parseInt(time / 1000 % 60);
+					 $(".time").css({"font-size":"16px"}) 
+					 $(".time").css({color:"red"}) 
+					 $('.time').html(day + "天" + hour + "时" + minute + "分" + seconds + "秒");
+				 }, 20);
+					
+	 
+	</script>
+<style type="text/css">
+*{margin:0;padding:0;}
+
+.slideshow {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slideshow-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  -webkit-animation-name: kenburns;
+          animation-name: kenburns;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.slideshow-image:nth-child(1) {
+  -webkit-animation-name: kenburns-1;
+          animation-name: kenburns-1;
+  z-index: 3;
+}
+.slideshow-image:nth-child(2) {
+  -webkit-animation-name: kenburns-2;
+          animation-name: kenburns-2;
+  z-index: 2;
+}
+.slideshow-image:nth-child(3) {
+  -webkit-animation-name: kenburns-3;
+          animation-name: kenburns-3;
+  z-index: 1;
+}
+.slideshow-image:nth-child(4) {
+  -webkit-animation-name: kenburns-4;
+          animation-name: kenburns-4;
+  z-index: 0;
+}
+
+@-webkit-keyframes kenburns-1 {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  1.5625% {
+    opacity: 1;
+  }
+  23.4375% {
+    opacity: 1;
+  }
+  26.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  98.4375% {
+    opacity: 0;
+    -webkit-transform: scale(1.21176);
+            transform: scale(1.21176);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes kenburns-1 {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  1.5625% {
+    opacity: 1;
+  }
+  23.4375% {
+    opacity: 1;
+  }
+  26.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  98.4375% {
+    opacity: 0;
+    -webkit-transform: scale(1.21176);
+            transform: scale(1.21176);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes kenburns-2 {
+  23.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  26.5625% {
+    opacity: 1;
+  }
+  48.4375% {
+    opacity: 1;
+  }
+  51.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@keyframes kenburns-2 {
+  23.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  26.5625% {
+    opacity: 1;
+  }
+  48.4375% {
+    opacity: 1;
+  }
+  51.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@-webkit-keyframes kenburns-3 {
+  48.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  51.5625% {
+    opacity: 1;
+  }
+  73.4375% {
+    opacity: 1;
+  }
+  76.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@keyframes kenburns-3 {
+  48.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  51.5625% {
+    opacity: 1;
+  }
+  73.4375% {
+    opacity: 1;
+  }
+  76.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@-webkit-keyframes kenburns-4 {
+  73.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  76.5625% {
+    opacity: 1;
+  }
+  98.4375% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes kenburns-4 {
+  73.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  76.5625% {
+    opacity: 1;
+  }
+  98.4375% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  z-index: 99;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
+  padding: 20px 120px;
+  line-height: 1.5;
+}
+h1 small {
+  display: block;
+  text-transform: lowercase;
+  font-size: .7em;
+}
+h1 small:first-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding-bottom: .5em;
+}
+h1 small:last-child {
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  padding-top: .5em;
+}
+	.time{
+		margin-top: -40px;
+	}
+</style>
 </head>
 <body>
-	<h1>LiHan!</h1>
-	<script type="text/javascript">
-		const a = [...document.getElementsByTagName("h1")][0];
-		
-		function wrapSpan(word){
-			return [...word].map( words => `<span>${words}</span>`).join('<span>*</span>')
-		}
-		a.innerHTML = wrapSpan(a.textContent)
-		console.log(a);
-		
-		
-		
-	</script>
+
+<!-- 
+这都被你发现啦，，，爱你❤
+ /$$                                                                     /$$    
+| $$                                                                    | $$    
+| $$        /$$$$$$  /$$    /$$ /$$$$$$         /$$$$$$$ /$$$$$$/$$$$  /$$$$$$  
+| $$       /$$__  $$|  $$  /$$//$$__  $$       /$$_____/| $$_  $$_  $$|_  $$_/  
+| $$      | $$  \ $$ \  $$/$$/| $$$$$$$$      | $$      | $$ \ $$ \ $$  | $$    
+| $$      | $$  | $$  \  $$$/ | $$_____/      | $$      | $$ | $$ | $$  | $$ /$$
+| $$$$$$$$|  $$$$$$/   \  $/  |  $$$$$$$      |  $$$$$$$| $$ | $$ | $$  |  $$$$/
+|________/ \______/     \_/    \_______/       \_______/|__/ |__/ |__/   \___/  
+                                                                                
+                                                                                
+                                                                                
+
+
+文字区不需要请连css部分代码一并删除 -->
+<h1>
+	<div class="wrap">
+	<div class="one" style="font-size: 16px;width: 300px;">亲爱的蔡同学，我们在一起的时间是：</div><br>
+	<div class="time" style="color:white;font-size:12px;"></div>
+	
+	</div>
+	</h1>
+
+<!-- 你可以添加个多“.slideshow-image”项目, 记得修改CSS -->
+<div class="slideshow">
+	<div class="slideshow-image" style="background-image: url('img/1.jpg')"></div>
+	<div class="slideshow-image" style="background-image: url('img/2.jpg')"></div>
+	<div class="slideshow-image" style="background-image: url('img/3.jpg')"></div>
+	<div class="slideshow-image" style="background-image: url('img/4.jpg')"></div>
+</div>
+
 </body>
 </html>
+
