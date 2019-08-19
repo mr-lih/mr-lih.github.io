@@ -1,0 +1,180 @@
+
+body{
+	width: 1200px;
+	height: 800px;
+	text-align: center;
+	margin: 0 auto;
+    /*border: 5px solid yellow;*/
+    
+}
+/*头部*/
+.head{
+	width: 1200px;
+	height:150px;
+	background-color: #2484CE;
+    /*border: 1px solid red;*/
+}
+/*导航栏*/
+.d{
+	width: 1200px;
+	height: 50px;
+	margin-top:10px ;
+	background-color: #024997;
+	border: 1px solid darkblue;
+}
+.d ul{
+	list-style: none;  /*去点*/
+}
+.d ul li{
+	float: left;
+	margin-left:80px ;
+	font-family: "微软雅黑";
+	font-size: 2em;
+	
+	margin-top: -15px;
+}
+.d ul li a{
+	text-decoration: none; /*去下划线*/
+}
+.d a:link{
+	color: white;
+}
+/*中间*/
+.z{
+	width: 1200px;
+	height: 400px;
+	margin-top:10px ;
+	
+	/*border: 1px solid black;*/
+}
+/*右*/
+.r{
+	width: 786px;
+	height: 400px;
+	float: left;
+	margin-right: 10px;
+	/*7EDDF3*/
+	background-color: #70C1F0;
+/*	border: 1px solid seagreen;*/
+}
+.r1{
+	width: 786px;
+	height: 58px;
+	background-image: url(../img/4.jpg);
+}
+.r2{
+	width: 784px;
+	height: 340px;
+	/*border: 1px solid saddlebrown;*/
+}
+
+.r2 img{
+	margin-left: -112px;
+	transition: all 1s;
+}
+.r2 img:hover{
+	transform: rotate(360deg);
+	border-radius: 50%;
+}
+.r2-1{
+	width: 310px;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.r2-2{
+	width: 450px;
+	height: 330px;
+	padding-top: 20px;
+	padding-right: 20px;
+	float: left;
+	/*border: 1px solid green;*/
+}
+.r2-2 h2{
+	color: white;
+}
+.r2-2 p{
+	text-indent: 2em;
+	text-align: left;
+	color: white;
+	text-size: 16px;
+}
+/*左*/
+.l{
+	width: 400px;
+	height: 400px;
+	float: left;
+	/*border: 1px solid red;*/
+}
+/*上*/
+.top{
+	width:400px;
+	height:53px;
+	background-image:url(../img/news_title.jpg);
+   /* border: 1px solid aquamarine;*/
+}
+/*下*/
+.l2{
+	width: 400px;
+	height: 345px;
+	background-color: #EBEBEB;
+	border: 1px solid  #EBEBEB;;
+}
+.l2-1{
+	width: 300px;
+	height: 305px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	background-color: white;
+	border: 1px solid  #EBEBEB; ;
+}
+.l2-1 ul {
+	text-decoration: none; /*去下划线*/
+	list-style: none;  /*去点*/
+}
+.l2-1 ul li{
+	width: 220px;
+	height: 21px;
+	background-image: url(img/list_bg.jpg);
+	background-repeat: no-repeat;
+	margin-top:20px;
+	border-bottom: 2px dashed gainsboro ;
+}
+.l2-1 ul li a{
+	float: left;
+	text-decoration: none;
+	color: black;
+	margin-left: 15px;
+}
+.l2-1 ul li a:hover{
+	color: red;
+}
+
+/*底部*/
+.foot{
+	width: 1200px;
+	height: 50px;
+	margin-top:10px ;
+	text-align: center;
+	background-color:#00008B;
+	border: 1px solid blue;
+}
+.foot p{
+	color: white;
+}
+
+.d a:link{
+	color: white;
+}
+
+.d a:visited{
+	color: white;
+}
+.d a:hover{
+	color: red;
+}
+.d a:active{
+	color:red;
+}
+
+
